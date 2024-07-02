@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap/stories/3/0");
+
+:root {
+  --font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  font-size: 14px;
+  --bg-main: #FAFAFA;
+  --brd-second-color: #F8F8F8;
+  --text-primary-color: #fff;
+  --text-second-color: #939393;
+  --text-accent-color: #000;
+  --bg-primary-color: #000;
+  --bg-second-color: #F0F0F0;
+  --bg-accent-color: #FFF;
+  --accent-comp-low-color: #08113D;
+  --accent-company-color: #081242;
+  --accent-comp-high-color: #4868FF;
+  --accent-second-color: #7A90F8;
+  --accent-block-color: #EFF3FF;
+  /*--bg-connect-color: #0A84FF;*/
+  --bg-connect-color: #0A84FF;
+  --block-brd-rds-main: 18px;
+  --btn-brd-rds-main: 10px;
+
+  --stories-bd-radius: 18px;
+  --stories-bd-bg-grd: linear-gradient(#00C1FEFF, #2FF4FFFC, #66F7FFFF, #BF73E4FF);
+  --stories-bd-bg-unic-grd: radial-gradient(496% 571.1% at -112% 78%, #eb9c00 0, #ff4769 27.08%, #3d50ff 66.38%, #00b3ff 100%);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: color, background .4s ease-in-out;
+  font-family: var(--font-family);
+  appearance: unset !important;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  background: var(--bg-main) !important;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body, body a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body a {
+  text-decoration: none;
+  color: var(--bg-primary-color);
+  cursor: pointer
+}
+
+
+:focus {
+  outline: none;
+}
+
+.imgAva {
+  width: 100%;
+  height: auto;
+  max-width: 40px;
+  max-height: 40px;
+  /*  */
+  border: 1.15px solid #D7DDE2;
+}
+
+.imgBordered {
+  border-radius: 50%;
+}
+
+.badgeText {
+  background: var(--bg-second-color);
+  color: var(--text-primary-color);
+  border-radius: 10px;
+  padding: 2px 1vh;
+}
+
+
